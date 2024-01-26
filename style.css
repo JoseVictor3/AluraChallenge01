@@ -208,20 +208,20 @@ footer {
     margin: 1rem 0 3rem 0;
 }
 
-.redes-sociais li{
+.redes-sociais li {
     margin: 0 10px;
 }
 
-.redes-sociais a{
+.redes-sociais a {
     text-decoration: none;
     color: #000;
 }
 
-.redes-sociais a{
+.redes-sociais a {
     font-size: 1.1rem;
     transition: color .4s ease;
 }
 
-.redes-sociais a:hover{
+.redes-sociais a:hover {
     color: var(--Dark-blue-dark-blue-300, #0A3871);
 }
