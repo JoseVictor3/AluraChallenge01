@@ -21,8 +21,8 @@ body {
 }
 
 .cabecalho img {
-    max-width: 700px;
-    max-height: 70px;
+    max-width: 750px;
+    max-height: 80px;
     width: auto;
     height: auto;
 }
@@ -32,16 +32,18 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin-top: 10%;
+    align-items: center;
+    width: 750px;
 }
 
 .container-input input {
     background: var(--Light-blue-light-blue-100, #F3F5FC);
     color: var(--Dark-blue-dark-blue-300, #0A3871);
-    font-size: 18px;
+    font-size: 25px;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
     line-height: 48px;
-    width: 480px;
+    width: 500px;
     border: none;
     outline: none;
     text-transform: lowercase;
@@ -55,8 +57,8 @@ body {
 .container-texto-criptografado{
     display: flex;
     flex-direction: column;
-    width: 250px;
-    height: 430px;
+    width: 350px;
+    height: 800px;
     border-radius: 32px;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     background-color: white;
@@ -67,20 +69,20 @@ body {
 }
 
 .container-texto-criptografado img {
-    max-width: 180px;
-    max-height: 180px;
+    max-width: 270px;
+    max-height: 270px;
     width: auto;
     height: auto;
     box-shadow: 0 2px 1px -2px
 }
 
 .container-texto-criptografado h1{
-    font-size: 15px;
+    font-size: 19px;
 }
 
 .container-texto-criptografado span {
     text-align: center;
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .container-texto-criptografado h1, span {
@@ -96,18 +98,19 @@ body {
 
 .output textarea {
     width: 100px;
+    height: 100px;
 }
 
 .botao {
     display: flex;
-    width: 228px;
-    padding: 14px;
-    gap: 8px;
+    justify-content: center;
+    width: 700px;
+    padding: 15px;
+    gap: 10px;
     border-radius: 15px;    
     background: var(--Dark-blue-dark-blue-300, #0A3871);
     color: white;
-    justify-content: space-around;
-    font-size: 10px;
+    font-size: 15px;
     border: solid 1px var(--Dark-blue-dark-blue-300, #0A3871);
 }
 
@@ -130,7 +133,7 @@ button:disabled:hover {
 
 #texto-secreto {
     color: var(--Dark-blue-dark-blue-300, #0A3871);
-    font-size: 18px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 300;
     line-height: 20px;
@@ -145,7 +148,7 @@ button:disabled:hover {
 .botoes {
     margin-bottom: 72px;
     display: flex;
-    width: 480px;
+    width: 700px;
     align-items: flex-start;
     gap: 24px;
     justify-content: space-between;
@@ -153,14 +156,14 @@ button:disabled:hover {
 
 .botao-copiar {
     display: flex;
-    width: 100px;
-    padding: 14px;
+    width: 150px;
+    padding: 20px;
     gap: 8px;
     border-radius: 15px;    
     background: var(--Dark-blue-dark-blue-300, #0A3871);
     color: white;
     justify-content: space-around;
-    font-size: 10px;
+    font-size: 15px;
     border: solid 1px var(--Dark-blue-dark-blue-300, #0A3871);
 }
 
@@ -195,9 +198,8 @@ footer {
 
 .footer-content p {
     max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
+    line-height: 15px;
+    font-size: 15px;
 }
 
 .redes-sociais {
@@ -208,20 +210,20 @@ footer {
     margin: 1rem 0 3rem 0;
 }
 
-.redes-sociais li {
+.redes-sociais li{
     margin: 0 10px;
 }
 
-.redes-sociais a {
+.redes-sociais a{
     text-decoration: none;
     color: #000;
 }
 
-.redes-sociais a {
-    font-size: 1.1rem;
+.redes-sociais a{
+    font-size: 2.1rem;
     transition: color .4s ease;
 }
 
-.redes-sociais a:hover {
+.redes-sociais a:hover{
     color: var(--Dark-blue-dark-blue-300, #0A3871);
 }
