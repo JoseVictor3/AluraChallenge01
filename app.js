@@ -7,7 +7,7 @@ var outputTexto = document.querySelector('#texto-secreto');
 
 
 function criptografar() {
-    var removeAcento = removeAcento.value;
+    var removeAcento = inputTexto.value;
     var texto = removeAcento.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     var textoCript = texto.replace(/e/g, "enter").replace(/i/g, "imes").replace(/a/g, "ai").replace(/o/g, "ober").replace(/u/g, "ufat");
     
