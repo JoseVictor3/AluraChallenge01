@@ -8,7 +8,9 @@ var outputTexto = document.querySelector('#texto-secreto');
 
 function criptografar() {
     var removeAcento = inputTexto.value;
+    
     var texto = removeAcento.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    
     var textoCript = texto.replace(/e/g, "enter").replace(/i/g, "imes").replace(/a/g, "ai").replace(/o/g, "ober").replace(/u/g, "ufat");
     
     document.getElementById('output').innerHTML = '<textarea id="texto-secreto" readonly>' + textoCript + '</textarea>' + '<button onclick="copiar()" class="botao-copiar">Copiar</button>';
@@ -21,7 +23,9 @@ function criptografar() {
 
 function descriptografar() {
     var removeAcento = inputTexto.value;
+    
     var texto = removeAcento.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    
     var textoDescript = texto.replace(/enter/g,"e").replace(/imes/g, "i").replace(/ai/g, "a").replace(/ober/g, "o").replace(/ufat/g, "u");
 
     document.getElementById('output').innerHTML = '<textarea id="texto-secreto" readonly>' + textoDescript + '</textarea>' + '<button onclick="copiar()" class="botao-copiar">Copiar</button>';
