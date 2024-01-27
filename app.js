@@ -1,7 +1,7 @@
 let mensagemCriptografadoH1 = 'A mensagem foi criptografada.';
 let mensagemCriptografadoSpam = 'Caso queira descriptografar a mensagem, basta clicar em descriptografar.';
 let mensagemDescriptografadaH1 = 'A mensagem foi descriptografada.';
-let mensagemDescriptografadaSpam = 'Caso queira criptografar a mensagem basta clicar em criptografar';
+let mensagemDescriptografadaSpam = 'Caso queira criptografar a mensagem basta clicar em criptografar.';
 var inputTexto = document.querySelector('#input-texto');
 var outputTexto = document.querySelector('#texto-secreto');
 
